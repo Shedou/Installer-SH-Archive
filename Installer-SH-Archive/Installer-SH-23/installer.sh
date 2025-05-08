@@ -231,8 +231,6 @@ function _INIT_GLOBAL_VARIABLES() {
 	MODE_SILENT="false"
 	MODE_TARPACK="false"
 	
-	_CHECK_ARGS
-	
 	Path_To_Script="$( dirname "$(readlink -f "$0")")"
 	Path_Installer_Data="$Path_To_Script/installer-data"
 	
@@ -246,6 +244,8 @@ function _INIT_GLOBAL_VARIABLES() {
 	Current_OS_Name_ID="Unknown"    # ID                  "chimbalix"                 DISTRIB_ID
 	Current_OS_Version="Unknown"    # VERSION_ID          "24.5"                      DISTRIB_RELEASE
 	Current_OS_Codename="Unknown"   # VERSION_CODENAME    "alphachi"                  DISTRIB_CODENAME
+	
+	_CHECK_ARGS
 }
 
 # _INSTALLER_SETTINGS
