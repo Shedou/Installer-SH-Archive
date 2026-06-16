@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Icon=PATH_TO_FOLDER/icons/icon.png
+Type=X-XFCE-Helper
+Name=PROGRAM_NAME_IN_MENU
+Name[ru]=PROGRAM_NAME_IN_MENU
+StartupNotify=false
+X-XFCE-Binaries=PATH_TO_FOLDER/launcher;
+X-XFCE-Category=WebBrowser
+# Examples: WebBrowser, FileManager, MailReader, TerminalEmulator
+X-XFCE-Commands=%B;
+X-XFCE-CommandsWithParameter=%B "%s";
